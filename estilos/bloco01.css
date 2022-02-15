@@ -19,7 +19,7 @@
     background-image: linear-gradient( to left, var(--cor1t) , var(--cor1)),url(../imagens/bloco01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
 
     display: flex;
     justify-content: center;
