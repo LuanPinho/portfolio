@@ -1,0 +1,94 @@
+#sobre{
+    padding-top: var(--hHeader1);
+    margin-top: calc(-1 * var(--hHeader1));
+}
+.bloco02{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:  calc(100% - 2vh);
+}
+.bloco02 h1{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1t);
+    color: var(--cor2);
+    font-size: var(--tFontA3);
+    font-family: var(--font1);
+}
+.bloco02-div{
+    box-shadow:  0px 0px 12px -5px var(--cor3);
+    background-image: linear-gradient( to left, var(--cor1t) , var(--cor1)),url(../imagens/bloco02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1vw;
+    
+    height: calc(100% - 6vh);
+    width: 96%;
+    border-radius: 10px;
+
+}
+.bloco02-div article{
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 10px;
+    padding-top: 4vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+    width: 30%;
+    height: calc(980px - 24vw);
+    min-height: 400px;
+}
+.bloco02-div p{
+    text-align: justify;
+    line-height: 18px;
+    padding-top: 2vh;
+    max-height: 60vh;
+    font-size: var(--tFontA5);
+}
+.bloco02-div h2{
+    text-align: center;
+}
+
+@media(max-width:1000px) {
+    .bloco02-div{   
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco02-div article{
+        height: auto;
+        width: 90%;
+        min-height: 0px;
+        text-indent: none;
+        margin-bottom: 2vh;
+    }
+    .bloco02-div p{ 
+        text-indent: 0px;
+    }
+}
+@media(max-width:580px) {
+    #sobre.bloco02 h1{
+        font-size: 20px;
+    }
+    #sobre.bloco02 h2{
+        font-size: 18px;
+    }
+    #sobre.bloco02 p{
+        font-size: 12px;
+    }
+}

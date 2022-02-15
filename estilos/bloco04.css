@@ -1,0 +1,111 @@
+#contatos{
+    padding-top: var(--hHeader1);
+    margin-top: calc(-1 * var(--hHeader1));
+}
+.bloco04{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:  calc(100% - 2vh);
+}
+.bloco04 h1{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1t);
+    color: var(--cor2);
+    font-size: var(--tFontA3);
+    font-family: var(--font1);
+}
+.bloco04-div{   
+   
+    box-shadow:  0px 0px 12px -5px var(--cor3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: calc(100% - 4vh);
+    width: 96%;
+    border-radius: 10px;
+    color: var(--cor2);
+    padding-bottom: 2vh;
+}
+.bloco04-div h3{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: var(--tFontA4);  
+}
+.bloco04-div hr{
+    border-color: var(--cor3t);
+    width: 90vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+}
+.rede{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: var(--cor2);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: calc(3px + 2vh);
+    margin-left: calc(3px + 2vh);
+}
+#blocoEmail{
+    display: none;
+}
+.rede img{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.rede p{
+    margin-left: 5px;
+}
+.gform{
+    width: 90vw;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.gform > iframe{
+    overflow: hidden;
+    width: 100%;
+    height: 810px;
+}
+@media(max-width:500px) {
+    .gform > iframe{
+        height: 820px;
+    }
+}
+@media(max-width:440px) {
+    .gform {
+        display: none;
+    }
+    #blocoEmail{
+        display: grid;
+    }
+    .sair{
+        display: none;
+    }
+}
