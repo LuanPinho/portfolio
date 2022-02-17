@@ -24,13 +24,6 @@
     --tFontA5: 16px;
     --tFontA6: 14px;
     
-    --tFontB1: calc(var(--tFontA1) - ((var(--tFontA1) * 0.3)));
-    --tFontB2: calc(var(--tFontA2) - ((var(--tFontA2) * 0.3)));
-    --tFontB3: calc(var(--tFontA3) - ((var(--tFontA3) * 0.3)));
-    --tFontB4: calc(var(--tFontA4) - ((var(--tFontA4) * 0.3)));
-    --tFontB5: calc(var(--tFontA5) - ((var(--tFontA5) * 0.3)));
-    --tFontB6: calc(var(--tFontA6) - ((var(--tFontA6) * 0.3)));
-
     --hHeader1: 60px;
 
     --tWidth1:800px;
@@ -41,11 +34,11 @@
 @media(max-width:600px) {
     :root{
         --tFontA1: 49px;
-        --tFontA2: 28px;
-        --tFontA3: 20px;
-        --tFontA4: 11px;
-        --tFontA5: 10px;
-        --tFontA6: 8px;  
+        --tFontA2: 29px;
+        --tFontA3: 22px;
+        --tFontA4: 13px;
+        --tFontA5: 12px;
+        --tFontA6: 10px;  
     }
 }
 @media(max-width:800px) {
