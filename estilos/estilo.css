@@ -36,9 +36,9 @@
         --tFontA1: 49px;
         --tFontA2: 29px;
         --tFontA3: 22px;
-        --tFontA4: 13px;
-        --tFontA5: 12px;
-        --tFontA6: 10px;  
+        --tFontA4: 15px;
+        --tFontA5: 14px;
+        --tFontA6: 12px;  
     }
 }
 @media(max-width:800px) {
